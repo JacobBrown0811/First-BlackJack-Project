@@ -2,6 +2,9 @@
  * This will contain the Suit value
  * Heart, Spade, Club, Diamond
  */
-public class Suit {
-    
+public enum Suit {
+    HEART,
+    SPADE,
+    CLUB,
+    DIAMOND
 }

@@ -6,4 +6,22 @@
  */
 public class CardValue {
     
-}
+        private int value;
+    
+        public CardValue() {
+            
+            value = 10;
+        }
+    
+        public void setAceValue(int aceValue) {
+            // Set the value of Ace (1 or 11)
+            value = aceValue;
+        }
+    
+        public int getValue() {
+            return value;
+        }
+    }
+    
+
+    
